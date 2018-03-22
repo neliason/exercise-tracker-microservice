@@ -1,0 +1,33 @@
+{
+	"name": "exercise-tracker",
+	"version": "0.1.0",
+	"description": "A REST API for exercise tracking",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"cors": "^2.8.1",
+		"dateformat": "^3.0.3",
+		"dotenv": "^5.0.1",
+		"express": "^4.14.0",
+		"mongodb": "^2.2.14",
+		"mongoose": "^5.0.11",
+		"shortid": "^2.2.6"
+	},
+	"engines": {
+		"node": "8.9.4"
+	},
+	"repository": {
+		"url": "https://github.com/neliason/exercise-tracker-microservice.git"
+	},
+	"license": "MIT",
+	"keywords": [
+		"node",
+		"express"
+	],
+	"devDependencies": {
+		"nodemon": "^1.17.2"
+	}
+}
